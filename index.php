@@ -206,7 +206,7 @@ foreach ($tasks as $task) {
           <?php foreach ($parents as $parent): ?>
             <tr>
               <td><?= $parent['ID'] ?>: </td>
-              <td><a href="https://fdk.cz/div/management/task_view.php?id=<?= $parent['ID'] ?>"><?= htmlspecialchars($parent['Title']) ?></a></td>
+              <td><a href="https://fdk.cz/div/management/div.cz_task_view.php?id=<?= $parent['ID'] ?>"><?= htmlspecialchars($parent['Title']) ?></a></td>
               <?php
               // Fetch and display latest comments (within <td>)
               
@@ -231,7 +231,7 @@ foreach ($tasks as $task) {
               ?>
               <td>
                 <?php if (!empty($parent['Assigned'])): ?>
-                  <a href="https://fdk.cz/div/management/user_tasks.php?div=<?= urlencode($parent['Assigned']) ?>">
+                  <a href="https://fdk.cz/div/management/div.cz_user_tasks.php?div=<?= urlencode($parent['Assigned']) ?>">
                     <?= htmlspecialchars($parent['Assigned']) ?>
                   </a>
                 <?php else: ?>
