@@ -1,6 +1,8 @@
 # DIV_task_management
 "div_task_management" is your PHP-based solution for task organization. Manage tasks, subtasks, users, comments, priorities, and categories seamlessly. Boost productivity and collaboration effortlessly.
 
+Security: you can choose between IP adressesss or registration
+
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
