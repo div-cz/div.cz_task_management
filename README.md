@@ -14,6 +14,6 @@ Server or webhosting with PHP 7 or more and SQL
 
 
 ## How to start<!--#how-to-start-->
-- CREATE  DATABASES (SQL/div.cz_task_management.sql)
-- Connect to database (inc/div.cz_connect.php)
+- CREATE  DATABASES (div.cz/div.cz_task_management.sql)
+- Connect to database (div.cz/div.cz_connect.php)
 - Copy files to your hosting
