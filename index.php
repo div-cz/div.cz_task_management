@@ -1,13 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "div_martin";
-$password = "your_secret_password";
-$dbname = "div_task_management";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'divcz/config.php';
+
 
 function fetchTasks() {
     global $conn;
