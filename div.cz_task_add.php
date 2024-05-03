@@ -1,6 +1,6 @@
 <?php
 
-require_once 'divcz/config.php';
+require_once 'div.cz/config.php';
 
 
 /*
