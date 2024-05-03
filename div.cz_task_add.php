@@ -77,7 +77,7 @@ $parent_id = isset($_POST['ParentID']) && !empty($_POST['ParentID']) ? $_POST['P
             <div class="alert alert-danger mt-2"><?= $date_error ?></div>
         <?php endif; ?>
 
-<form action="task_add.php" method="post" class="needs-validation" novalidate>
+<form action="div.cz_task_add.php" method="post" class="needs-validation" novalidate>
     <div class="form-group">
         <label>Title</label>
         <input type="text" class="form-control" name="Title" value="<?= isset($_POST['Title']) ? htmlspecialchars($_POST['Title']) : '' ?>" required>
