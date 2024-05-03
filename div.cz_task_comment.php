@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute the update query
     if ($stmt_update_comment->execute()) {
         // Redirect to task view page
-        header("Location: task_view.php?id=$task_id");
+        header("Location: div.cz_task_view.php?id=$task_id");
         exit();
     } else {
         echo "Error adding comment: " . $conn->error;
@@ -101,7 +101,7 @@ $conn->close();
             </div>
             <input type="submit" class="btn btn-primary" value="Přidat komentář">
         </form>
-        <p><a href="task_view.php?id=<?php echo $task_id; ?>" class="btn btn-secondary mt-3">Zpět na detail úkolu</a></p>
+        <p><a href="div.cz_task_view.php?id=<?php echo $task_id; ?>" class="btn btn-secondary mt-3">Zpět na detail úkolu</a></p>
     </div>
 </body>
 </html>
